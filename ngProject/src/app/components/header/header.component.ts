@@ -12,5 +12,7 @@ export class HeaderComponent implements OnInit {
   // live cycle methode run when the component load
   ngOnInit(): void {
   }
-
+toggleAddTask(){
+  console.log('event emitted!');
+}
 }
