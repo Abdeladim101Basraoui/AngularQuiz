@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 
 // 1er est la class du composent
 export class AppComponent {
-  title = 'ngProject';
+  title:string = 'Task Manager';
 }
