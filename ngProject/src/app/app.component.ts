@@ -9,5 +9,4 @@ import { Component } from '@angular/core';
 
 // 1er est la class du composent
 export class AppComponent {
-  title:string = 'Task Manager';
 }

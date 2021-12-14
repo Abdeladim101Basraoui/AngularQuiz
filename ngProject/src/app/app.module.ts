@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { AddButtonComponent } from './components/add-button/add-button.component';
 
 // decorator ng module pour le creeNgProject il faut faire:
 // declaration == declare les web component a chaque fois il y a de nouveau component on les ajouter ici
@@ -10,7 +12,10 @@ import { AppComponent } from './app.component';
 //            formsModule == utiliser pour gerer les formulaire
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    AddButtonComponent,
+
   ],
   imports: [
     BrowserModule

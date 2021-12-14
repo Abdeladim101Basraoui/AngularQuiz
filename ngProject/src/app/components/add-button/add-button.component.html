@@ -1,0 +1,6 @@
+<!-- <input type="button" value="{{ text }}" class="btn"> -->
+<button [ngStyle]="{'background-color':color}" 
+class="btn"
+(click)="onclick()">{{ text }}</button>
+<!-- ng style is a derictive that specify the inline styling -->
+<!-- for the events we use the () to define the event and the ="function()" -->
