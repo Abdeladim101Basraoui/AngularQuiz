@@ -4,6 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AddButtonComponent } from './components/add-button/add-button.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // decorator ng module pour le creeNgProject il faut faire:
 // declaration == declare les web component a chaque fois il y a de nouveau component on les ajouter ici
@@ -15,10 +18,13 @@ import { AddButtonComponent } from './components/add-button/add-button.component
     AppComponent,
     HeaderComponent,
     AddButtonComponent,
+    TasksComponent,
+    TaskItemComponent,
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
 
   // pour les services de notre projet
