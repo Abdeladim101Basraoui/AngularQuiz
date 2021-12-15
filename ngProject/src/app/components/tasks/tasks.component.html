@@ -1,4 +1,5 @@
 <app-task-item *ngFor='let task of tasks'
 [task]="task"
+(onDeleteTask)="deleteTask(task)"
 ></app-task-item>
 <!-- adding a property of TASK that will take the task in the loop -->

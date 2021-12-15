@@ -8,6 +8,8 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+// import the HTTPClient
+import {HttpClientModule}from'@angular/common/http';
 // decorator ng module pour le creeNgProject il faut faire:
 // declaration == declare les web component a chaque fois il y a de nouveau component on les ajouter ici
 // import  == specifier les module qu'on peut les importer [BrowserModule] is always used
@@ -24,7 +26,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
 
   // pour les services de notre projet
